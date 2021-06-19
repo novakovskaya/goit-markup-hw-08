@@ -7,7 +7,7 @@
 .portfolio-menu {
   display: flex;
   flex-wrap: wrap;
-  margin-bottom: 50px;
+  margin-bottom: 35px;
 }
 
 .portfolio-menu__item:not(:last-child) {
@@ -44,5 +44,19 @@
 @media screen and (min-width: 768px) {
   .portfolio-menu {
     justify-content: center;
+  }
+
+  .portfolio-menu {
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .portfolio-menu {
+    justify-content: center;
+  }
+
+  .portfolio-menu {
+    margin-bottom: 50px;
   }
 }
