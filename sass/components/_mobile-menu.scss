@@ -17,13 +17,13 @@
     position: relative;
     padding-top: 48px;
     padding-bottom: 48px;
-    // padding: 48px 40px;
   }
 
   .mobile-menu.is-open {
     opacity: 1;
     visibility: visible;
     pointer-events: auto;
+    z-index: 1;
   }
 
   .mobile-menu__close-btn {

@@ -224,6 +224,7 @@ input {
     opacity: 1;
     visibility: visible;
     pointer-events: auto;
+    z-index: 1;
   }
   .mobile-menu__close-btn {
     position: absolute;
@@ -489,7 +490,6 @@ input {
   font-size: 12px;
   line-height: 1.17;
   color: var(--secondary-text-color);
-  text-align: center;
 }
 
 @media screen and (min-width: 1200px) {
