@@ -5,6 +5,8 @@
 
 .examples__item {
   margin-bottom: 35px;
+  border: 1px solid var(--portfolio-border-cards);
+  border-top: none;
 }
 
 @media screen and (min-width: 768px) {
@@ -68,14 +70,12 @@
 
 .examples__content {
   padding: 20px 24px;
-  border: 1px solid var(--portfolio-border-cards);
-  border-top: none;
 }
 
 .examples__title {
   margin-bottom: 4px;
 
-  font-size: 17px;
+  font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--primary-text-color);
